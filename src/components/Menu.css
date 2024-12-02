@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2b2c2d;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  font: inherit;
+  text-decoration: none;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+  transition: background 1s;
+}
+
+ul li a:hover {
+  background-color: gray;
+  opacity: 0.5;
+}

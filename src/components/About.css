@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 15px;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: justify;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo-unifei {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
