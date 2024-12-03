@@ -12,7 +12,7 @@ export default function Jogadores() {
 
   return (
     <div>
-      <h1>Tabela de Jogadores</h1>
+      <h1>Raquel eu te amo</h1>
       {jogador.map(
         (
           jogador //usamos o ".map" para fazer um for no array
