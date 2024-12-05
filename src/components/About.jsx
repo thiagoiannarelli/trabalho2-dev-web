@@ -7,11 +7,13 @@ export default function About() {
       <div class="container">
         <div class="content">
           <h1 class="titulo">Quem somos?</h1>
-          <img
-            class="logo-unifei"
-            src="https://cdn.worldvectorlogo.com/logos/unifei-1.svg"
-            alt="UNIFEI LOGO"
-          />
+          <div class="container-logo">
+            <img
+              class="logo-unifei"
+              src="https://cdn.worldvectorlogo.com/logos/unifei-1.svg"
+              alt="UNIFEI LOGO"
+            />
+          </div>
           <p>UNIFEI - Campus Itabira</p>
           <hr />
           <p>
