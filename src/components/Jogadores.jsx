@@ -1,25 +1,40 @@
 import React, { useEffect, useState } from "react";
+import "./Jogadores.css";
 
 export default function Jogadores() {
-  const [jogador, setJogador] = useState([]);
+  const [jogadores, setJogadores] = useState([]);
 
   useEffect(() => {
-    console.log("REACT REATIVO");
     fetch("https://back-end-aula-web-eight.vercel.app/usuarios")
       .then((resp) => resp.json())
-      .then((resp) => setJogador(resp));
-  });
+      .then((data) => setJogadores(data));
+  }, []);
 
   return (
-    <div>
-      <h1>Melhores Jogadores</h1>
-      {jogador.map(
-        (
-          jogador
-        ) => (
-          <p key={jogador.id}>{jogador.nome}</p>
-        )
-      )}
+    <div class="container">
+      <div class="content">
+        <h1 class="titulo">Tabela de Jogadores</h1>
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Clube</th>
+              <th>Idade</th>
+              <th>Camisa</th>
+            </tr>
+          </thead>
+          <tbody>
+            {jogadores.map((jogador) => (
+              <tr key={jogador.id}>
+                <td>{jogador.nome}</td>
+                <td>{jogador.email}</td>
+                <td>{jogador.peso}</td>
+                <td>{jogador.altura}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
