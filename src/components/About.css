@@ -15,16 +15,23 @@
   text-align: justify;
 }
 
+.titulo {
+  text-align: center;
+}
+
 p {
   color: #333;
   line-height: 1.6;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-unifei {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  width: 400px;
-  border-radius: 4px;
-  margin-bottom: 20px;
 }
