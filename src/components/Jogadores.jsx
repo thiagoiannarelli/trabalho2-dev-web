@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Jogadores.css"; // Arquivo CSS com o estilo
-import EditJogadores from "./EditJogadores";
+import "./Jogadores.css";
 
 export default function Jogadores() {
   const [jogadores, setJogadores] = useState([]);
