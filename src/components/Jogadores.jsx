@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./Jogadores.css";
+import "./Jogadores.css"; // Arquivo CSS com o estilo
+import EditJogadores from "./EditJogadores";
 
 export default function Jogadores() {
   const [jogadores, setJogadores] = useState([]);
@@ -13,14 +14,14 @@ export default function Jogadores() {
   return (
     <div class="container">
       <div class="content">
-        <h1 class="titulo">Tabela de Jogadores</h1>
+        <h1 class="titulo">Lista Melhores Jogadores</h1>
         <table class="tabela">
           <thead>
             <tr>
               <th>Nome</th>
               <th>Clube</th>
+              <th>Nº Camisa</th>
               <th>Idade</th>
-              <th>Camisa</th>
             </tr>
           </thead>
           <tbody>
