@@ -20,6 +20,8 @@ export default function About() {
             Somos dois estudantes de Engenharia da Computação da UNIFEI desenvolvendo
             um trabalho para a disciplina de Desenvolvimento de Sistemas Web com
             a tecnologia React
+          </p>
+          <p>
             Thiago e Rodrigo
           </p>
         </div>
