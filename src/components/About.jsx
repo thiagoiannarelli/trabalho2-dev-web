@@ -17,9 +17,10 @@ export default function About() {
           <p>UNIFEI - Campus Itabira</p>
           <hr />
           <p>
-            Somos estudantes de Engenharia da Computação da UNIFEI desenvolvendo
+            Somos dois estudantes de Engenharia da Computação da UNIFEI desenvolvendo
             um trabalho para a disciplina de Desenvolvimento de Sistemas Web com
             a tecnologia React
+            Thiago e Rodrigo
           </p>
         </div>
       </div>
